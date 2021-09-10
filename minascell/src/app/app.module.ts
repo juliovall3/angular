@@ -12,6 +12,7 @@ import {MatButton, MatButtonModule} from "@angular/material/button";
 import {MatCardModule} from "@angular/material/card";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {ReactiveFormsModule} from "@angular/forms";
+import {_MatMenuDirectivesModule, MatMenuModule} from "@angular/material/menu";
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import {ReactiveFormsModule} from "@angular/forms";
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    _MatMenuDirectivesModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent,TopoComponent,FooterComponent]

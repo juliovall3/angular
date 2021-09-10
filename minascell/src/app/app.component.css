@@ -1,13 +1,21 @@
-.example-card {
-  max-width: 100%;
-}
 
 .example-form {
-  min-width: 150px;
-  max-width: 500px;
+  min-width: 100px;
+  max-width: 400px;
   width: 100%;
 }
 
 .example-full-width {
   width: 100%;
+}
+
+
+.example-card {
+  max-width: 400px;
+
+}
+
+.example-header-image {
+  background-image: url('https://sobradeestoque.com.br/wp-content/uploads/2020/01/620161-500x497.jpg');
+  background-size: cover;
 }
